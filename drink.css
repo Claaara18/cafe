@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgb(12, 72, 98,0.9);
+    height:50px;
+    width:100%;
+    
+}
+h1{
+    color:rgb(245, 249, 252);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    font-size: 50px;
+    color:  rgb(12, 72, 98,0.9);
+    background-color: antiquewhite;
+    text-align: center;
+    line-height: 180px;
+    font-family: 'cwTeXMing',serit;
+}
+.drink{
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px 80px;
+}
+.drink div{
+    width: 300;
+    text-align: center;
+}
+.drink img{
+    width: 100;
+    border-radius: 10px;
+    width:300px;
+    height: 300px;
+}
+.drink h3{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.drink p{
+    font-size: 14px;
+    line-height: 1.6em;
+}
+.drink2{
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px 80px;
+}
+.drink2 div{
+    width: 300;
+    text-align: center;
+}
+.drink2 img{
+    width: 100;
+    border-radius: 10px;
+    width:300px;
+    height: 300px;
+}
+.drink2 h3{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.drink2 p{
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+footer{
+    background-color:rgb(12, 72, 98); 
+    height: 80px;
+    width: 100%;
+
+}
+footer p{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    line-height: 30px;
+}
